@@ -49,6 +49,25 @@ body {
     max-width: 300px;
     max-height: 60vh;
 }
+.btn {
+    display: inline-block;
+    padding: 1.2rem 2.8rem;
+    background: rgb(200, 39, 39);
+    border-radius: .6rem;
+
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border: .2rem solid transparent;
+    transition: .5s ease;
+    text-decoration: none;
+}
+.btn:hover {
+    background: rgb(30, 214, 214);
+    color:black;
+    border-color: black;
+}
 
 
 section {

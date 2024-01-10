@@ -14,19 +14,12 @@ body {
     left: 0;
     width: 100%;
     padding: 18px;
-    background-color:palegreen;
+    background-color:rgb(16, 213, 220);
     display: flex;
     align-items: center;
     z-index: 100;
     
 }
- 
- 
-.header.sticky {
-    background: var(--bg-color);
-    box-shadow: 0 .1rem 1rem var(--shadow-color);
-}
- 
 .logo {
     font-size: 2.2rem;
     color:black;
@@ -34,7 +27,6 @@ body {
     margin-right: auto;
     text-decoration: none;
 }
- 
 .navbar a {
     position: relative;
     font-size: 15px;
@@ -49,53 +41,39 @@ body {
     color: hotpink;
     transition: .4s;
 }
-
-
 .about-img img{
    
     bottom: 0;
     right: 50px;
     max-width: 300px;
     max-height: 60vh;
- 
 }
-
- 
 section {
-    min-height: 100vh;
-    padding: 10rem 7% 2rem;
+    min-height: 70vh;
+    padding: 10rem 5% 1rem;
 }
- 
 .home {
     display: flex;
     align-items: center;
 }
- 
 .home .homepage {
     max-width: 42rem;
 }
- 
 .homepage h3 {
     font-size: 4.1rem;
     font-weight: 700;
     line-height: .2rem;
     color: purple;
-   
 }
- 
 .homepage h2 {
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: .2rem;
 }
- 
 .homepage p {
-    font-size: 25px;
- 
+    font-size: 15px;
 }
- 
-.home-img img {
-   
+.home-img img {   
     position: absolute;
     bottom: 0;
     right: 50px;
@@ -117,7 +95,7 @@ section {
 .heading {
     font-size: 4.5rem;
     text-align: center;
-    color:darkorchid;
+    color:rgb(18, 124, 205);
 }
  
 .about-content h2 {
@@ -130,7 +108,7 @@ section {
 }
  
 .about-content p {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     margin: 29px;
 }
  
@@ -248,7 +226,7 @@ section {
 .contact form {
     max-width: 450px;
     margin: 1rem auto;
-    text-align: center;
+    align-items: center;
     margin-bottom: 200px;
     text-align: center;
     margin-right: 13%;
@@ -270,7 +248,7 @@ section {
     background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
-    box-shadow: 0 .1rem .5rem var(--shadow-color);
+ 
 }
  
 .contact form .input-box input {
