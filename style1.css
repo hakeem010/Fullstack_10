@@ -2,7 +2,13 @@
 *{
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
+body{
+    background-color: #1f242d;
+    color: #fff;
+}
+
  
 .header{
     width: 100%;
@@ -83,73 +89,7 @@ text-align:center;
 .textbox p{
     font-size:20px;
 }
- 
-.register-btn{
-   
-    display:inline-block;
-    text-decoration: none;
-    color: white;
-    border: 2px solid white;
-    border-radius: 8px;
-    padding: 12px 34px;
-    font-size: 25px;
-    background:transparent;
-    position: relative;
-    cursor:pointer;
-}
- 
-.register-btn:hover{
-    border: 2px solid red;
-    background :red;
-    transition: 1s;
-    border-radius: 8px;
- 
-}
- 
-nav .fa{
-    display: none;
-}
- 
-@media(max-width: 1000px){
-    .textbox h1{
-        font-size: 40px;
-    }
-    .link ul li{
-       
-        display: block;
-    }
-    .link ul {
-       
-      margin:12%;
-    }
- 
- 
- 
-.link{
-    background: red;
-    position: fixed;
-    right: -200px;
-    top: 0;
-    height: 100vh;
-    width: 200px;
-    text-align: left;
-    z-index:2;
-    transition: 1s;
-}
- 
-nav .fa{
-    display: block;
-    font-size: 24px;
-    cursor: pointer;
-    color: white;
-    margin: 10px;
-}
- 
-}
- 
- 
 /* feature */
- 
 .row{
     display: flex;
     justify-content: space-between;
@@ -159,8 +99,9 @@ nav .fa{
     flex-basis: 31%;
     margin: 5%;
     text-align: center;
-    background-color: lightgray;
-    border-radius: 10px;
+    background-color: #1f242d;
+    border: solid #0ef 2px;
+    border-radius: 20px;
     box-sizing: border-box;
     padding: 2%;
 }
@@ -174,12 +115,10 @@ p{
     font-size:18px;
 }
 .col:hover{
-  
-    background-color: red;
     cursor: pointer;
-    color: white;
-    box-shadow: 10px 10px 5px grey;
-    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 20px #0ef ;
+  
 }
 @media(max-width:900px){
  
@@ -208,16 +147,7 @@ p{
     float: left;
 }
  
-/* .branch-col{
-    width: 150px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 5px;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #fff;
-    display: none;
-} */
+
 .hide{
     display: none;
 }
@@ -237,6 +167,7 @@ p{
     position: relative;
     
 }
+
  
  
 .cityname{
@@ -251,12 +182,12 @@ p{
 }
  
 .cityname:hover h2{
-    background-color: #1f242d;
+    background-color: #0ef;
     top: 0;
     left: 0;
     height: 400px;
     width: 209.5px;
-    color: #0ef;
+    color: #1f242d;
     position: absolute;
     transform: translateY(87%);
     transition: 0.5s;
@@ -275,9 +206,10 @@ p{
  
 .feed-col{
     display: flex;
-    background: lightpink;
+    background: #0ef;
+    color: black;
     flex-basis: 30%;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 7%;
     margin-top: 5%;
 }
@@ -297,11 +229,12 @@ p{
  
 .feedname p{
     text-align: left;
+    font-size: 15px;
 }
 .aboutus{
     width: 90%;
     min-height: 30vh;
-    background-image: url("images/range.jpeg");
+ 
     margin:auto;
     margin-bottom: 10px;
     background-position: center;
@@ -374,23 +307,24 @@ p{
     z-index: 100;
     flex-wrap:wrap;
     
-}
- 
+} 
 .category-filter{
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 .category-filter button{
 padding: 8px 16px;
 margin: 5px;
-border: 1px solid #ccc;
 border-radius: 4px;
 cursor: pointer;
-background-color: blue;
-color: white;
+background-color: #1f242d;
+color: #fff;
 }
 .category-filter button:hover{
-    background-color: red;
+box-shadow: 0 0 20px#0ef;
+color: #0ef;
+border: solid #0ef 2px;
+transition: 0.5s;
 }
 .searchInput{
     padding: 8px;
@@ -406,8 +340,9 @@ color: white;
 /*Contact page*/
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    padding: 12px;   
+    background-color: #1f242d;
+    color: #fff;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -429,9 +364,10 @@ input[type=text], select, textarea {
   }
   
   .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    border-radius: 2px;
+    background-color:  #0ef ;
+    padding: 10px;
+    color: #1f242d;
   }
   .contact{
     width: 100%;
