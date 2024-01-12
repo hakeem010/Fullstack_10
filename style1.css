@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: #1f242d;
+    background-color: #7FC7D9;
     color: #fff;
 }
 
@@ -206,7 +206,7 @@ p{
  
 .feed-col{
     display: flex;
-    background: #0ef;
+    background: #DCF2F1;
     color: black;
     flex-basis: 30%;
     border-radius: 30px;
@@ -317,14 +317,15 @@ padding: 8px 16px;
 margin: 5px;
 border-radius: 4px;
 cursor: pointer;
-background-color: #1f242d;
-color: #fff;
+background-color: #fff;
+color: #1f242d;
 }
 .category-filter button:hover{
-box-shadow: 0 0 20px#0ef;
-color: #0ef;
+box-shadow: 0 0 25px black ;
+color: #fffF;
 border: solid #0ef 2px;
 transition: 0.5s;
+background-color: #5FBDFF;
 }
 .searchInput{
     padding: 8px;
@@ -357,6 +358,8 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 20%;
+    letter-spacing: 5px;
   }
   
   input[type=submit]:hover {
@@ -365,11 +368,13 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 2px;
-    background-color:  #0ef ;
-    padding: 10px;
-    color: #1f242d;
+ 
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
   }
   .contact{
-    width: 100%;
+    width: 60%;
     float: left;
   }
